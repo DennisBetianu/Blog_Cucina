@@ -1,6 +1,5 @@
 # Blog_Cucina
-Progetto di un Blog di cucina in modo responsive.
-E'adattabile per ogni dispositivo.
+Progetto di un Blog di cucina adattabile per ogni dipositivo.
 
 
 Vai al Sito:
