@@ -1,13 +1,13 @@
 # Blog_Cucina
-Progetto di un Blog di cucina adattabile per ogni dipositivo.
+Progetto di un Blog di cucina **adattabile** per ogni dipositivo.
 
 
-Vai al Sito:
+**Vai al Sito:**
 <a href="http://dennisb11.ml"> dennisb11.ml </a>
 
 
 
-Linguaggi di Programmazione utilizzati:
+**Linguaggi di Programmazione utilizzati:**
  - HTML5
  - CSS 3.0
  - Framework Bootstrap 5.0
