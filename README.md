@@ -16,9 +16,6 @@ Il progetto ha come funzionalità:
  - aggiunta del carosello per lo scorrimento delle immagini
  - Offcanvas per la navbar
 
-Le card ha la possibilità di ragruppare le ricette tramite i collapse.
+La card ha la possibilità di ragruppare le ricette tramite i collapse.
 
 E' stato inoltre pubbilicato su internet.
-
-
-
