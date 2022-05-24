@@ -1,9 +1,6 @@
-
+# Blog_Cucina
 **Vai al Sito:**
 <a href="http://dennisb11.ml"> dennisb11.ml </a>
-
-
-# Blog_Cucina
 Progetto di un Blog di cucina **adattabile** per ogni dipositivo.
 
 
