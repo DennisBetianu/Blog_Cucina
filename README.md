@@ -1,6 +1,8 @@
-# Blog_Cucina
-**Vai al Sito:**
-<a href="http://dennisb11.ml"> dennisb11.ml </a>
+# Blog di Cucina Responsive
+**Vai al Sito:** <a href="http://dennisb11.ml"> dennisb11.ml </a>
+
+<!--- --->
+
 Progetto di un Blog di cucina **adattabile** per ogni dipositivo.
 
 
