@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+    
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="./progetto/css/stile_dolci.css">
+
+<title>Crepes</title>
+  </head>
+  <body>
+   
+
+
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+      <a class="navbar-brand h-3 logo_custom d-flex align-items-center" href="./CucinaBootstrap.html"> <img src="./progetto/media/logo_cucina.png"  alt="Logo sitoWeb" class="logo_custom"> CUCINOTECA </a>
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2 m social_icon">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./CucinaBootstrap.html"> </a>
+            </li>
+            <li class="nav-item">
+              <a class="link_logo" href="#"> <i class="bi bi-instagram"></i></a>
+              <a class="link_logo" href="#"> <i class="bi bi-tiktok"></i> </a>
+              
+            </li>
+         </ul>   -->
+
+           <!-- <div class="container-fluid " id="navbarNav">
+            <ul class="navbar-nav barra_centrale">
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tutorial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Chef</a>
+              </li>
+            </ul>
+          </div> -->
+
+           <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex justify-content-end ">
+              <nav class="navbar navbar-light bg-light border-0 d-flex p-0">
+                <div class="container-fluid">
+                  <!-- <form class="d-flex border-radius-20">
+                    <input class="form-control me-2" type="search" placeholder="Cerca una ricetta" aria-label="Search">
+                    <button class="btn btn-outline-success ricerca_struttura" type="submit"> <li> <a href="" class="search_logo text-dark "> <i class="bi bi-search"></i> </a> </li> </button>
+                  </form> -->
+                </div>
+              </nav>
+              
+            </ul>
+           </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!-- card ricetta-->  
+
+
+
+<div class="container "> 
+
+    <div class="row row-cols-md-3 g-4  justify-content-center card-position">
+        <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-7">
+              <div class="card h-100 m-4 custom_card">
+              
+        <!-- Carosello Tiramisù -->           
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./progetto/media/crepes.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./progetto/media/crepes_2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./progetto/media/crepes_3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+
+
+              <div class="card-body">
+              <h5 class="card-title text-center">Crêpes</h5>
+             
+      <!-- Accordion ricetta-->
+          <div class="accordion accordion-flush pt-3" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Ingredienti
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul> 
+                     <li> Uova medie 3 </li>
+                     <li> Farina 00 250 g  </li>
+                     <li>  Latte intero 500 ml  </li>
+                     <li>  Burro per ungere la crepiera q.b.  </li>
+                  </ul> 
+                 </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Preparazione
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Per preparare le crepe dolci e salate iniziate rompendo le uova in una ciotola dai bordi alti 1 mescolate con una forchetta e unite il latte 2. Mescolate accuratamente per amalgamare questi due ingredienti 3.Posizionate un colino sul recipiente e poi setacciate la farina nella ciotola 4, (per comodità potete anche aggiungerla in due tempi e mescolare così da evitare la formazione di grumi). Poi con le fruste mescolate energicamente per assorbire la farina 5. Continuate a mescolare fino ad ottenere un composto omogeneo, vellutato e privo di grumi 6.A questo punto coprite la ciotola con della pellicola alimentare trasparente e lasciate riposare per almeno 30 minuti in frigorifero: questa operazione serve a far assorbire eventuali grumi 7. Trascorso il tempo mescolate l’impasto per farlo rinvenire 8 e poi scaldate una crepiera (o in alternativa una padella antiaderente dal diametro tra i 18 ed i 22 cm) ed ungetela con una noce di burro. Una volta a temperatura versate un mestolo di impasto sufficiente a ricoprire la superficie della padella: potete aiutarvi con l'apposito stendi pastella per crepe oppure ruotare la padella fino a distribuire il composto uniformemente (fate attenzione a non spanderlo tutto sui bordi per evitare che al centro non rimanga pastella sufficiente a creare una crepe dalla superficie uniforme); si consiglia di eseguire queste operazioni molto in fretta, poiché la pastella cuocerà rapidamente. 9Trascorso circa 1 minuto a fuoco medio-basso, dovreste notare una leggera doratura, i bordi tenderanno a staccarsi perciò potrete girare la prima crepe aiutandovi con una paletta 10. Cuocete anche l'altro lato per 1 minuto circa, aspettando che prenda colore 11. Una volta cotta la prima, strasferitela su un piatto da portata o su di un tagliere. Ripetete questa operazione fino a finire l’impasto, dovreste ottenere così 15 crepe del diametro di 20 cm: impilate ogni crepe una sopra l’altra così resteranno morbide. Ecco pronte le vostre crepe dolci e salate, non vi resta che farcirle 12!
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Curiosità
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> 
+                  Chi ha inventato le crepe? Non si sa niente di certo, ma sembra che siano nate per prime le italiane crespelle! Infatti fu papa Gelasio, nel V secolo, ad ordinarne una grande quantità per ristorare i pellegrini francesi giunti a Roma. La notizia di queste “frittate arricchite” fece presto il giro in Francia dove assunsero il nome di crepe.
+                  Il resto è storia!
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+<div style="height: 600px;"> </div>
+
+
+
+   <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
