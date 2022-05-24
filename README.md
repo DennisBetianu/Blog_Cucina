@@ -12,9 +12,12 @@ Linguaggi di Programmazione utilizzati:
  - CSS 3.0
  - Framework Bootstrap 5.0
 
-Il progetto ha come funzionalità 
- - l'implementazione delle card con
+Il progetto ha come funzionalità: 
+ - l'implementazione delle card
  - aggiunta del carosello per lo scorrimento delle immagini
+ - Offcanvas per la navbar
+
+Le card servono per ragruppare le ricette tramite i collapse.
 
 E' stato inoltre pubbilicato su internet.
 
