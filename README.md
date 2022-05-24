@@ -15,6 +15,6 @@ Progetto di un Blog di cucina **adattabile** per ogni dipositivo.
  - l'implementazione delle card
  - aggiunta del carosello per lo scorrimento delle immagini
  - Offcanvas per la navbar
- - possibilità di ragruppare le ricette tramite i collapse.
+ - possibilità di ragruppare le ricette tramite i collapse
 
 
